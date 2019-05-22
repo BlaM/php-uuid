@@ -49,5 +49,5 @@ function str2uuid($input) {
 }
 
 function is_uuid($input) {
-    return !!(preg_match("~^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$~", $input))
+    return !!(preg_match("~^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$~", $input));
 }
