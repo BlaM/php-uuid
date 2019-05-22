@@ -1,7 +1,7 @@
 # php-uuid
 Random and Pseudo-Random UUIDs
 
-Generate [RFC4122|https://www.ietf.org/rfc/rfc4122.txt] Version 4 (random) UUIDs.
+Generate [RFC4122](https://www.ietf.org/rfc/rfc4122.txt) Version 4 (random) UUIDs.
 
 uuid() can return "not really random" UUIDs which - however - don't follow the rules of other types in RFC4122:
 
