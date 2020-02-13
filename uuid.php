@@ -25,7 +25,7 @@ function uuid($mode = UUID_MODE_RANDOM, $type = 0, $sep = '-') {
     }
 
     if ($mode & UUID_MODE_USE_REMOTE_ADDR) {
-        $unique1 = ip2val($_SERVER[REMOTE_ADDR]);
+        $unique1 = ip2long($_SERVER[REMOTE_ADDR]);
         $unique2 = $unique1 & 0xFFFF;
         $unique1 = ($unique1 >> 16) & 0xFFFF;
     } else {
